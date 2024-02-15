@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 # 💫 About Me:
-Data Analyst at Turkcell leveraging insights to drive strategic decisions and business growth | SQL | Tableau | Power BI | Python |
+Data Analyst leveraging insights to drive strategic decisions and business growth | SQL | Tableau | Power BI | Python |
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omerzaman/) 

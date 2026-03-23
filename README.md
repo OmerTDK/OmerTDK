@@ -26,11 +26,11 @@ I build and maintain the data platform at Cloover — designing pipelines from r
 | **Languages** | Python, SQL |
 | **Data** | BigQuery, dbt, pandas |
 | **Cloud** | Google Cloud Platform, Cloud Run, Cloud Storage |
-| **Tools** | Docker, Git, Linux, VS Code |
+| **Tools** | Docker, Git, Linux |
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,gcp,docker,git,linux,bash,postgres,github,vscode&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=python,gcp,docker,git,linux,bash,postgres,github&theme=dark" />
   </a>
 </p>
 

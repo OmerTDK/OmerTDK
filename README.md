@@ -34,18 +34,6 @@ I build and maintain the data platform at Cloover — designing pipelines from r
   </a>
 </p>
 
-### GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css,scss&exclude_repo=OmerTDK.github.io,omer-portfolio" height="170" />
-</div>
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=OmerTDK&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-
 ### Featured Projects
 
 | Project | Description |

@@ -1,10 +1,62 @@
-### Hi there 👋
+<div align="center">
 
-# 💫 About Me:
-Data Scientist leveraging insights to drive strategic decisions and business growth | SQL | Tableau | Power BI | Python |
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Omer;Data+%26+Analytics+Engineer;Building+pipelines+with+dbt+%26+BigQuery)](https://git.io/typing-svg)
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omerzaman/) 
+**Data & Analytics Engineer at [Cloover](https://www.cloover.com) in Berlin**
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/omerzaman)
+[![Website](https://img.shields.io/badge/omertdk.github.io-000000?style=flat&logo=githubpages&logoColor=white)](https://omertdk.github.io)
+
+</div>
+
+---
+
+I build and maintain the data platform at Cloover — designing pipelines from raw ingestion through BigQuery, transforming with dbt, and delivering production-ready datasets for financial analytics. Previously focused on data science and ML, now fully in the data engineering world.
+
+### Currently
+
+- Designing a medallion architecture (Bronze → Silver → Gold) with dbt and BigQuery
+- Automating financial reporting pipelines with Python on Google Cloud
+- Building data quality frameworks and testing standards from scratch
+
+### Tech Stack
+
+| | |
+|---|---|
+| **Languages** | Python, SQL |
+| **Data** | BigQuery, dbt, pandas |
+| **Cloud** | Google Cloud Platform, Cloud Run, Cloud Storage |
+| **Tools** | Docker, Git, Linux, VS Code |
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,gcp,docker,git,linux,bash,postgres,github,vscode&theme=dark" />
+  </a>
+</p>
+
+### GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" />
+</div>
+
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=OmerTDK&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+### Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| [Paris Housing Analysis](https://github.com/OmerTDK/Paris-Housing-Analysis) | Predictive modeling with Python and ML to forecast Paris housing prices |
+| [Streamlit Sales Dashboard](https://github.com/OmerTDK/Streamlit-Sales-Dashboard) | Interactive sales analytics dashboard built with Streamlit |
+| [ScentTech Fragrance Clustering](https://github.com/OmerTDK/scenttech-fragrance-clustering) | Unsupervised ML clustering analysis for fragrance categorization |
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=OmerTDK&color=70A5FD&style=flat-square&label=Profile+Views" />
+</p>

@@ -37,8 +37,7 @@ I build and maintain the data platform at Cloover — designing pipelines from r
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=jupyter%20notebook" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css,scss&exclude_repo=OmerTDK.github.io,omer-portfolio" height="170" />
 </div>
 
 <p align="center">
@@ -56,7 +55,3 @@ I build and maintain the data platform at Cloover — designing pipelines from r
 | [ScentTech Fragrance Clustering](https://github.com/OmerTDK/scenttech-fragrance-clustering) | Unsupervised ML clustering analysis for fragrance categorization |
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=OmerTDK&color=70A5FD&style=flat-square&label=Profile+Views" />
-</p>

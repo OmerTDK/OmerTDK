@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Omer;Data+%26+Analytics+Engineer;Building+pipelines+with+dbt+%26+BigQuery)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hey%2C+I'm+Omer+%F0%9F%91%8B;Data+%26+Analytics+Engineer;Building+pipelines+with+dbt+%26+BigQuery)](https://readme-typing-svg.demolab.com)
 
 **Data & Analytics Engineer at [Cloover](https://www.cloover.com) in Berlin**
 
@@ -37,8 +37,8 @@ I build and maintain the data platform at Cloover — designing pipelines from r
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=jupyter%20notebook" height="170" />
 </div>
 
 <p align="center">

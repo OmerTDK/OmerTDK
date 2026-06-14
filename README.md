@@ -1,34 +1,54 @@
-<img src="header.svg" alt="Omer Zaman" width="420">
+<p align="center">
+  <img src="banner.svg" alt="Omer Zaman" width="100%">
+</p>
 
-Data & Analytics Engineer · [Cloover](https://www.cloover.com) · Berlin
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=16&duration=3000&pause=2000&color=71717A&center=true&vCenter=true&width=440&lines=the+data+that+funds+solar+loans;SCD2+dimensional+warehouses;every+row+traceable%2C+every+version+numbered;infrastructure+built+for+correctness" alt="Typing SVG" /></a>
+</p>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=16&duration=3000&pause=2000&color=71717A&vCenter=true&width=435&lines=the+data+that+funds+solar+loans;dimensional+warehouses+that+survive+audits;every+row+traceable%2C+every+version+numbered;infrastructure+built+for+correctness" alt="Typing SVG" /></a>
+I build data platforms for fintech lending at [Cloover](https://www.cloover.com). Wrong number → loan doesn't close.
+
+<table>
+<tr><td valign="top" width="320">
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=false&include_all_commits=true&count_private=true&hide_title=false&title_color=484f58&bg_color=0d1117&text_color=a1a1aa&border_color=21262d&custom_title=Stats&line_height=28&hide=contribs">
+  <img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=false&include_all_commits=true&count_private=true&hide_title=false&title_color=484f58&bg_color=0d1117&text_color=a1a1aa&border_color=21262d&custom_title=Stats&line_height=28&hide=contribs" width="300">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&hide_title=false&title_color=484f58&bg_color=0d1117&text_color=a1a1aa&border_color=21262d&langs_count=5">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&hide_title=false&title_color=484f58&bg_color=0d1117&text_color=a1a1aa&border_color=21262d&langs_count=5" width="300">
+</picture>
+
+<br>
+
+</td><td valign="top">
+
+**[credit-data-platform](https://github.com/OmerTDK/credit-data-platform)**
+SCD2 dimensional model for lending — dims, facts, history, partner reporting
 
 ---
 
-`sources` → `raw` → `staging` → `DWH` → `marts` → `reports`
+**[fraud-feature-store](https://github.com/OmerTDK/fraud-feature-store)**
+Online features with batch/real-time parity testing
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api?username=OmerTDK&show_icons=false&include_all_commits=true&count_private=true&hide_title=true&hide_rank=true&bg_color=09090b&text_color=a1a1aa&icon_color=3f3f46&border_color=18181b&line_height=28" alt="Stats" width="400">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OmerTDK&layout=compact&hide_title=true&bg_color=09090b&text_color=a1a1aa&border_color=18181b&langs_count=5" alt="Languages" width="320">
-
----
-
-**credit-data-platform**
-Dimensional warehouse for lending. SCD2 history — every row versioned, every version traceable to its source event.
-
-**fraud-feature-store**
-Batch and real-time fraud signals on a single serving layer. Parity harness guarantees agreement before production.
-
-**open-banking-pipeline**
-PSD2 transactions normalized into clean underwriting signals. Hundreds of raw types, one unified schema.
-
-**medallion-dbt-template**
-Starting architecture for every warehouse. Five layers, 800+ tests, observability wired in from day one.
+**[open-banking-pipeline](https://github.com/OmerTDK/open-banking-pipeline)**
+PSD2 transaction categorization engine
 
 ---
+
+**[medallion-dbt-template](https://github.com/OmerTDK/medallion-dbt-template)**
+Production dbt template: raw → marts, testing baked in
+
+</td></tr>
+</table>
 
 <sub>ML → production data engineering. The model was never the hard problem.</sub>
 

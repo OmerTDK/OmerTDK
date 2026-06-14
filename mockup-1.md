@@ -50,6 +50,16 @@
 ---
 
 <p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=OmerTDK&theme=darkhub&no-frame=true&column=6&margin-w=8&margin-h=8" alt="Trophies" width="100%"></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=natemoo-re&bar_color=58a6ff&bar_color_cover=false" alt="Spotify" width="300">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt">
   <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -60,8 +70,6 @@
 
 <p align="center">
   <sub>ML → production data engineering. The model was never the hard problem.</sub>
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/omerzaman">LinkedIn</a> · <a href="https://omerzaman.vercel.app">omerzaman.vercel.app</a>
+  <br>
+  <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>·</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
 </p>

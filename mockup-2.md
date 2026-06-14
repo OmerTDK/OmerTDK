@@ -8,7 +8,9 @@
 
 <p align="center">
   I build data platforms for fintech lending at <a href="https://www.cloover.com">Cloover</a>. Wrong number → loan doesn't close.
-  <br><br>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt">
   <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -17,8 +19,10 @@
   <img src="https://img.shields.io/badge/SQL-E38C00?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
+---
+
 <details>
-<summary><p align="center">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀▼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</p></summary>
+<summary><p align="center"><sub>▼ stats & activity</sub></p></summary>
 
 <br>
 
@@ -58,23 +62,23 @@
 </table>
 
 <p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=OmerTDK&theme=darkhub&no-frame=true&column=6&margin-w=8&margin-h=8" alt="Trophies" width="100%"></a>
+</p>
+
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=OmerTDK&theme=transparent&hide_border=true&ring=58a6ff&fire=3fb950&currStreakLabel=8b949e&sideLabels=8b949e&currStreakNum=fafafa&sideNums=fafafa&dates=3f3f46&stroke=21262d" alt="Streak" width="520">
 </p>
 
-<img src="https://raw.githubusercontent.com/OmerTDK/OmerTDK/output/github-snake-dark.svg" alt="Snake animation" width="100%">
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OmerTDK&bg_color=0d1117&color=8b949e&line=58a6ff&point=3fb950&area=true&area_color=1f6feb&hide_border=true&custom_title=%20" alt="Activity Graph" width="100%">
-</p>
-
-Currently own the full data stack at Cloover — raw ingestion through a layered dbt warehouse on BigQuery to automated financial reports for banking partners. SCD2 dimensional models, fraud feature stores, open banking pipelines, data quality systems.
-
-`sources` → `raw` → `staging` → `intermediate` → `DWH` → `marts` → `reports`
-
-<sub>ML → production data engineering. The model was never the hard problem.</sub>
-
 </details>
 
+---
+
 <p align="center">
-  <a href="https://linkedin.com/in/omerzaman">LinkedIn</a> · <a href="https://omerzaman.vercel.app">omerzaman.vercel.app</a>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Quote" width="500">
+</p>
+
+<p align="center">
+  <sub>ML → production data engineering. The model was never the hard problem.</sub>
+  <br>
+  <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>·</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
 </p>

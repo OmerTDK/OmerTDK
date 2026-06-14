@@ -7,57 +7,14 @@
 </p>
 
 <p align="center">
-  I build data platforms for fintech lending at <a href="https://www.cloover.com">Cloover</a>. Wrong number → loan doesn't close.
+  <sub>Data & Analytics Engineer · <a href="https://www.cloover.com">Cloover</a> · Berlin</sub>
 </p>
 
----
-
-<table>
-<tr>
-<td align="center" width="140">
-
-**1,247**
-<sub>commits</sub>
-
-</td>
-<td align="center" width="140">
-
-**186**
-<sub>PRs</sub>
-
-</td>
-<td align="center" width="140">
-
-**43d**
-<sub>streak</sub>
-
-</td>
-<td align="center" width="140">
-
-**47%**
-<sub>SQL</sub>
-
-</td>
-<td align="center" width="140">
-
-**38%**
-<sub>Python</sub>
-
-</td>
-</tr>
-</table>
-
----
+<img src="https://raw.githubusercontent.com/OmerTDK/OmerTDK/output/github-snake-dark.svg" alt="Snake animation" width="100%">
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=OmerTDK&theme=transparent&hide_border=true&ring=58a6ff&fire=3fb950&currStreakLabel=8b949e&sideLabels=8b949e&currStreakNum=fafafa&sideNums=fafafa&dates=3f3f46&stroke=21262d" alt="Streak" width="520">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OmerTDK&bg_color=0d1117&color=8b949e&line=58a6ff&point=3fb950&area=true&area_color=1f6feb&hide_border=true&custom_title=%20" alt="Activity Graph" width="100%">
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OmerTDK&bg_color=0d1117&color=8b949e&line=58a6ff&point=58a6ff&area=true&area_color=1f6feb&hide_border=true" alt="Activity Graph" width="100%">
-</p>
-
----
 
 <p align="center">
   <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt">
@@ -70,8 +27,6 @@
 
 <p align="center">
   <sub>ML → production data engineering. The model was never the hard problem.</sub>
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/omerzaman">LinkedIn</a> · <a href="https://omerzaman.vercel.app">omerzaman.vercel.app</a>
+  <br>
+  <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>·</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
 </p>

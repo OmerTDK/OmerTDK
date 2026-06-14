@@ -3,19 +3,22 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=16&duration=3000&pause=2000&color=71717A&center=true&vCenter=true&width=440&lines=the+data+that+funds+solar+loans;SCD2+dimensional+warehouses;every+row+traceable%2C+every+version+numbered;infrastructure+built+for+correctness" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=300&size=16&duration=3000&pause=2000&color=71717A&center=true&vCenter=true&width=440&lines=if+it's+not+versioned%2C+it+didn't+happen;no+magic%2C+no+shortcuts%2C+no+silent+failures;tested+in+CI%2C+validated+in+production" alt="Typing SVG" /></a>
 </p>
 
-I build data platforms for fintech lending at [Cloover](https://www.cloover.com). Wrong number → loan doesn't close.
+<p align="center">
+  Data &amp; analytics engineer at <a href="https://www.cloover.com">Cloover</a>.<br>
+  Every number has to be right.
+</p>
 
-```
-<!--stats-->
-Commits      1,247    SQL        ████████░░  47%
-PRs            186    Python     ███████░░░  38%
-Streak          43d   Jinja      ███░░░░░░░  15%
-<!--/stats-->
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt">
+  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/GCP-34A853?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+</p>
 
-<sub>ML → production data engineering. The model was never the hard problem.</sub>
-
-[LinkedIn](https://linkedin.com/in/omerzaman) · [omerzaman.vercel.app](https://omerzaman.vercel.app)
+<p align="center">
+  <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>&middot;</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
+</p>

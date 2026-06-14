@@ -1,0 +1,90 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # daily at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch GitHub stats
+        uses: actions/github-script@v7
+        id: stats
+        with:
+          script: |
+            const { data: user } = await github.rest.users.getByUsername({
+              username: context.repo.owner
+            });
+
+            // Get all repos for language stats
+            const repos = await github.paginate(github.rest.repos.listForAuthenticatedUser, {
+              type: 'all',
+              per_page: 100
+            });
+
+            // Aggregate languages
+            const langBytes = {};
+            for (const repo of repos) {
+              if (repo.fork) continue;
+              try {
+                const { data: langs } = await github.rest.repos.listLanguages({
+                  owner: repo.owner.login,
+                  repo: repo.name
+                });
+                for (const [lang, bytes] of Object.entries(langs)) {
+                  langBytes[lang] = (langBytes[lang] || 0) + bytes;
+                }
+              } catch (e) { /* skip private/inaccessible */ }
+            }
+
+            const totalBytes = Object.values(langBytes).reduce((a, b) => a + b, 0);
+            const topLangs = Object.entries(langBytes)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 5)
+              .map(([lang, bytes]) => ({ lang, pct: Math.round(bytes / totalBytes * 100) }));
+
+            // Get contribution count for current year
+            const year = new Date().getFullYear();
+            const query = `query {
+              user(login: "${context.repo.owner}") {
+                contributionsCollection(from: "${year}-01-01T00:00:00Z") {
+                  totalCommitContributions
+                  totalPullRequestContributions
+                }
+              }
+            }`;
+            const gql = await github.graphql(query);
+            const contribs = gql.user.contributionsCollection;
+
+            core.setOutput('commits', contribs.totalCommitContributions.toLocaleString());
+            core.setOutput('prs', contribs.totalPullRequestContributions.toLocaleString());
+            core.setOutput('repos', user.public_repos);
+
+            // Format languages
+            let langLines = '';
+            for (const { lang, pct } of topLangs) {
+              const filled = Math.round(pct / 100 * 20);
+              const bar = '█'.repeat(filled) + '░'.repeat(20 - filled);
+              langLines += `${lang.padEnd(10)} ${bar} ${String(pct).padStart(3)}%\n`;
+            }
+            core.setOutput('langs', langLines.trim());
+
+      - name: Update README
+        env:
+          COMMITS: ${{ steps.stats.outputs.commits }}
+          PRS: ${{ steps.stats.outputs.prs }}
+        run: |
+          sed -i "s/<!--commits-->.*<!--\/commits-->/<!--commits-->${COMMITS}<!--\/commits-->/" README.md
+          sed -i "s/<!--prs-->.*<!--\/prs-->/<!--prs-->${PRS}<!--\/prs-->/" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "chore: update profile stats" && git push)

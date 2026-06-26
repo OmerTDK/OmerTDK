@@ -22,7 +22,3 @@
 <p align="center">
   <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>&middot;</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/OmerTDK/OmerTDK/output/github-snake-dark.svg" alt="contribution snake" />
-</p>

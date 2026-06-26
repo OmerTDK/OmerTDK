@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Data &amp; analytics engineer at <a href="https://www.cloover.com">Cloover</a>.<br>
+  Data &amp; Analytics Engineer at <a href="https://www.cloover.com">Cloover</a>.<br>
   Every number has to be right.
 </p>
 

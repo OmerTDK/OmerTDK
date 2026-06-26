@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Data &amp; Analytics Engineer at <a href="https://www.cloover.com">Cloover</a>.<br>
+  Data &amp; Analytics Engineer @ <a href="https://www.cloover.com">Cloover</a>.<br>
   Every number has to be right.
 </p>
 
@@ -17,8 +17,4 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/GCP-34A853?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/omerzaman"><sub>LinkedIn</sub></a> <sub>&middot;</sub> <a href="https://omerzaman.vercel.app"><sub>omerzaman.vercel.app</sub></a>
 </p>

@@ -17,11 +17,9 @@ jobs:
         uses: actions/github-script@v7
         id: stats
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const owner = context.repo.owner;
 
-            // Contributions (includes private)
             const year = new Date().getFullYear();
             const gql = await github.graphql(`query {
               user(login: "${owner}") {
@@ -29,6 +27,9 @@ jobs:
                   totalCommitContributions
                   totalPullRequestContributions
                   contributionCalendar { totalContributions weeks { contributionDays { contributionCount date } } }
+                }
+                repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                  nodes { languages(first: 5, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name } } } }
                 }
               }
             }`);
@@ -44,21 +45,12 @@ jobs:
               else break;
             }
 
-            // Languages (includes private repos)
-            const repos = await github.paginate(github.rest.repos.listForAuthenticatedUser, {
-              type: 'all', per_page: 100
-            });
+            // Languages from public repos via GraphQL
             const langBytes = {};
-            for (const repo of repos) {
-              if (repo.fork) continue;
-              try {
-                const { data: langs } = await github.rest.repos.listLanguages({
-                  owner: repo.owner.login, repo: repo.name
-                });
-                for (const [lang, bytes] of Object.entries(langs)) {
-                  langBytes[lang] = (langBytes[lang] || 0) + bytes;
-                }
-              } catch (e) {}
+            for (const repo of gql.user.repositories.nodes) {
+              for (const edge of repo.languages.edges) {
+                langBytes[edge.node.name] = (langBytes[edge.node.name] || 0) + edge.size;
+              }
             }
             const totalBytes = Object.values(langBytes).reduce((a, b) => a + b, 0);
             const top3 = Object.entries(langBytes)
@@ -69,7 +61,6 @@ jobs:
                 pct: Math.round(bytes / totalBytes * 100)
               }));
 
-            // Build the stats block
             const bar = (pct) => {
               const filled = Math.round(pct / 100 * 10);
               return '█'.repeat(filled) + '░'.repeat(10 - filled);
@@ -94,10 +85,11 @@ jobs:
           with open('README.md', 'r') as f:
               content = f.read()
           pattern = r'<!--stats-->.*?<!--/stats-->'
-          replacement = '<!--stats-->\n' + block + '\n<!--/stats-->'
-          content = re.sub(pattern, replacement, content, flags=re.DOTALL)
-          with open('README.md', 'w') as f:
-              f.write(content)
+          if re.search(pattern, content, flags=re.DOTALL):
+              replacement = '<!--stats-->\n' + block + '\n<!--/stats-->'
+              content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+              with open('README.md', 'w') as f:
+                  f.write(content)
           "
 
       - name: Commit changes

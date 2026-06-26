@@ -31,7 +31,7 @@
   <rect width="840" height="240" fill="url(#grid)" rx="8"/>
 
   <text x="420" y="95" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="800" fill="#e6edf3" letter-spacing="-2">Omer Zaman</text>
-  <text x="420" y="125" text-anchor="middle" font-family="monospace" font-size="12" fill="#484f58" letter-spacing="1">data &amp; analytics engineer</text>
+  <text x="420" y="125" text-anchor="middle" font-family="monospace" font-size="12" fill="#484f58" letter-spacing="1">Data &amp; Analytics Engineer</text>
 
   <g transform="translate(140, 170)">
     <g class="n1">
